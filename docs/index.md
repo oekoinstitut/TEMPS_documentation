@@ -209,7 +209,7 @@ $$
 
 mit
   
-<p>\\(\c_{i}:\\) Diskonierungsrate</p>
+\\(\c_{i}:\\) Diskonierungsrate
 
 \\(\tau:\\) Haltedauer
 
