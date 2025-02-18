@@ -31,13 +31,13 @@ ___
 
 ## 3 Nutzungsprofile und Fahrzeugkonfigurationen
 
-Die Modellierung der Neuzulassungen von Pkw und Lkw basiert auf einem bottom-up-Ansatz, in dem die Kaufentscheidung von insgesamt rund 2400 Nutzungsprofilen abgebildet wird. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisiertem Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.
+Die Modellierung der Neuzulassungen von Pkw und Lkw basiert auf einem bottom-up-Ansatz, in dem die Kaufentscheidung von insgesamt rund 2400 Nutzungsprofilen abgebildet wird. Die Gesamtheit der Nutzungsprofile bildet das Fahrverhalten der Bevölkerung im Motorisierten Individualverkehr (MIV) bzw. der Logistikunternehmen im Güterverkehr repräsentativ ab.
 
 Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:
 <ul>
   <li>Größenklasse des Fahrzeugs</li>
   <li>Art des Halters (privat, gewerblich, dienstwagennutzend, carsharing)</li>
-  <li>Regionstyp des Halters (innenstadt, städtisch, ländlich)</li>
+  <li>Regionstyp des Halters (Innenstadt, städtisch, ländlich)</li>
   <li>Jahresfahrleistung</li>
   <li>Haltedauer</li>
 </ul>
