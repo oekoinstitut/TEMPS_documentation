@@ -357,11 +357,11 @@ Die Bereitstellung eines Dienstwagens zur privaten Nutzung stellt steuerrechtlic
 In TEMPS wird die Besteuerung des geldwerten Vorteils der Dienstwagennutzung im Rahmen der TCO-Rechnung berücksichtigt und hat somit Einfluss auf die Antriebswahl. Es wird ein durchschnittlicher Arbeitsweg von 18 Kilometern einfacher Strecke, der anhand der MiD 2017 berechnet wurde, angesetzt. 
 Ferner wird ein Grenzsteuersatz von 40% für die Kalkulation der zusätzlichen finanziellen Belastung aus der Besteuerung des geldwerten Vorteils angenommen sowie berücksichtigt, dass der/die Arbeitgebende vorsteuerabzugsberechtigt ist, daher die Mehrwertsteuer beim Kauf entfällt und daher keinen Einfluss auf die TCO hat. Antriebsspezifische Sonderregelungen werden ebenfalls berücksichtigt.
 
-### 4.2 Logit-Modell für Pkw
+### 4.2 Logit-Modell
 
-Nachdem mit der TCO-Rechnung für jedes Pkw-Nutzungsprofil und jeden Antrieb die jeweils kostengünstigste Effizienz ermittelt wird, wird die Verteilung der Antriebe über ein Logit-Modell bestimmt. Das Logit-Modell ermöglicht es, antriebspezifische Attraktivitätsmerkmale zu berücksichtigen, die über die rein ökonomische Betrachtung hinausgehen.
+Nachdem mit der TCO-Rechnung für jedes Nutzungsprofil und jeden Antrieb die jeweils kostengünstigste Effizienz ermittelt wird, wird die Verteilung der Antriebe über ein Logit-Modell bestimmt. Das Logit-Modell ermöglicht es, antriebspezifische Attraktivitätsmerkmale zu berücksichtigen, die über die rein ökonomische Betrachtung hinausgehen.
 
-Die Realität zeigt, dass Menschen sich bei der Kaufentscheidung nicht grundsätzlich für das günstigste Fahrzeug entscheiden, sondern stattdessen andere Faktoren wie Komfort, Gewohnheit, Popularität oder Status bei der Kaufentscheidung von Bedeutung sind. Das Logit-Modell bildet diese antriebsspezifischen Charakteristika ab.
+Die Realität zeigt, dass Menschen sich bei der Kaufentscheidung nicht grundsätzlich für das günstigste Fahrzeug entscheiden, sondern stattdessen andere Faktoren wie Komfort, Gewohnheit, Popularität oder Status bei der Pkw-Kaufentscheidung von Bedeutung sind. Das Logit-Modell bildet diese antriebsspezifischen Charakteristika ab.
 
 Die Wahrscheinlichkeit für den Kauf eines Pkw mit dem Antrieb i kann mit dem Logit-Modell mittels der Gleichung
 
@@ -370,9 +370,9 @@ P(X_{i}) = \frac{e^{val(x_{i})}}{\sum\limits_{j=1}^{i}{e^{val(x_{j})}}}
 $$
 
 
-beschrieben werden. Dabei bezeichnet \\(X_{i}\\) einen Pkw mit Antrieb \\(i\\). \\(val(X_{i})\\) ist eine Wertfunktion, die der TCO des Fahrzeugs \\(X_{i}\\) entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. 
-Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich zukünftig dem Niveau von Benzinern annähert. Die genaue Parametrisierung ist teil der jeweiligen Szenariokonzeption. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken.
-Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Auswahl der Fahrzeugeffizienzen mit den Ist-Daten übereinstimmt und auch in der Prognose zuverlässig ist. 
+beschrieben werden. Dabei bezeichnet \\(X_{i}\\) einen Pkw mit Antrieb \\(i\\). \\(val(X_{i})\\) ist eine Wertfunktion, die der TCO des Fahrzeugs \\(X_{i}\\) entspricht und sich je nach Käufer unterscheidet. Die Wertfunktion hängt u.a. von den Logit-Parametern, der Haltergruppe (gewerblich / privat) und dem geplanten Fahrleistungsprofil der/des Kaufenden ab. Die Logit-Parameter des Modells werden an den Neuzulassungszahlen des letzten historischen Jahres kalibriert. Es wird davon ausgegangen, dass die Attraktivität von alternativen Antrieben sich zukünftig dem Niveau von Benzinern annähert. Die genaue Parametrisierung ist teil der jeweiligen Szenariokonzeption. Dies liegt an den verschärften CO<sub>2</sub>-Flottenzielwerten, die bis zum Jahr 2035 auf null sinken. Eine Kalibrierung anhand der EU-Monitoringdaten stellt zudem sicher, dass die Auswahl der Fahrzeugeffizienzen mit den Ist-Daten übereinstimmt und auch in der Prognose zuverlässig ist. 
+
+Für Nutzfahrzeuge wird ebenfalls eine Kalibrierung der Neuzulassungen an Daten des KBA über Logit-Faktoren durchgeführt. Im Güterverkehr ist die ökonomische Dimension in der Entscheidungsfindung deutlich bedeutsamer. Dennoch wirken auch hier zusätzliche Faktoren, wie Markentreue, Marktverfügbarkeit oder (erwartete) Zuverlässigkeit, welche nur über Logit-Faktoren berücksichtigt werden können.
 
 ### 4.3 Neuzulassungsstruktur für Nutzfahrzeuge
 
