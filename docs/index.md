@@ -1,6 +1,6 @@
 # TEMPS Dokumentation
 
-*20.03.2025*
+*11.06.2025*
 
 ## 1 Einleitung
 
@@ -183,7 +183,7 @@ Der Restwert eines Fahrzeugs geht zum Ende der Haltedauer als Gutschrift in die 
 Die Gleichung lautet:
 
 $$
-C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} * BP)^{d} 
+C_{rv} =  e^{a+12 * b * \tau + (\frac{c}{12} * M)} * (C_{rp} - BP)^{d} 
 $$
 
 mit
