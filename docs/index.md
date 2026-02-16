@@ -1,6 +1,6 @@
 # TEMPS Dokumentation
-
-*11.06.2025*
+Wolf Görz, Peter Kasten, Inia Steinbach
+Stand: 11.06.2025
 
 ## 1 Einleitung
 
