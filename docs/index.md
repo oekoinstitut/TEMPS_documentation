@@ -1,6 +1,6 @@
 # TEMPS Dokumentation
 Wolf Görz, Peter Kasten, Inia Steinbach
-Stand: 11.06.2025
+Stand: 16.02.2026
 
 ## 1 Einleitung
 
@@ -16,7 +16,7 @@ ___
 
 TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinander kombiniert. Zunächst wird die Neuzulassungs- und Bestandsstruktur von Pkw und Lkw für rund 2400 Nutzungsprofile bottom-up berechnet, basierend auf einem TCO-Modell (Total Costs of Ownership). Bei der Antriebswahl für Pkw werden darüber hinaus nicht-ökonomische Verhaltensweisen über ein kalibriertes Logit-Modell berücksichtigt. Anschließend werden ermittelte Kennzahlen top-down anhand der Verkehrsnachfrage- und Energiebilanzdaten sowie weiteren Ist-Daten kalibriert. Die Kalibrierung und das kontinuierliche Nachführen der Ist-Daten stellt eine Kurzfristvalidierung der Modellierung sicher. Das Modell betrachtet die Verkehrsemissionen in Deutschland nach Sektordefinition des Klimaschutzgesetzes. Berücksichtigt wird die Verkehrsleistung nach dem Inlandsprinzip, der Fahrzeugbestand nach dem Inländerprinzip. Internationale Verkehre, welche von oder nach Deutschland gehen, werden ebenfalls modelliert (Personenflugverkehr, Güterflugverkehr, Güterseeverkehr).
 
-![TEMPS_Schema_18.2.25.png](TEMPS_Schema_26.png)
+![TEMPS_Schema_26.png](TEMPS_Schema_26.png)
 <figure markdown="span">
   <figcaption>Schematische Darstellung des Modells TEMPS</figcaption>
 </figure>
@@ -43,7 +43,7 @@ Jedes Nutzungsprofil wird durch fünf Merkmale charakterisiert:
 </ul>
 
 
-Die Nutzungsprofile im MIV basieren auf dem „Mobilitätspanel“ (MOP) [(Ecke et al. 2021)](#Ecke_2021) und der Studie „Mobilität in Deutschland 2017“ [(Nobis und Kuhnimhof 2018)](#Nobis_2018). Für Lkw und LNF beruhen die Profile auf der Studie „Kraftfahrzeugverkehr in Deutschland 2010“ [(Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010)](#BMVI_2010) und der Fahrleistungserhebung 2014 [(Bäumer et al. 2017; Bundesanstalt für Straßenwesen (BASt) 2015)](#Bäumer_2017).
+Die Nutzungsprofile im MIV basieren auf dem „Mobilitätspanel“ (MOP) [(KIT 2023)](#KIT_2023) und der Studie „Mobilität in Deutschland 2017“ [(Nobis und Kuhnimhof 2018)](#Nobis_2018). Für Lkw und LNF beruhen die Profile auf der Studie „Kraftfahrzeugverkehr in Deutschland 2010“ [(Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) 2010)](#BMVI_2010) und der Fahrleistungserhebung 2014 [(Bäumer et al. 2017; Bundesanstalt für Straßenwesen (BASt) 2015)](#Bäumer_2017).
 
 Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge in den jeweiligen Größenklassen mit verschiedenen Antrieben und Effizienzen zur Verfügung. In [Tabelle 1](#T1) sind die möglichen Antriebe für Pkw und Lkw dargestellt, die sich auf verschiedene Größenklassen verteilen [(Tabelle 2)](#T2).  
   
@@ -87,6 +87,10 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
     </tr>
     <tr>
       <td>Brennstoffzellenantrieb</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wasserstoffverbrenner</td>
       <td></td>
     </tr>
   </tbody>
@@ -432,9 +436,6 @@ Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) (Hg.) (2010): K
 <a id="Dexheimer_2003"></a>
 Dexheimer, Verena (2003): Hedonic Methods of Price Measurement for Used Cars. German Federal Statistical Office (Destatis).
 
-<a id="Ecke_2021"></a>
-Ecke, Lisa; Chlond, Bastian; Magdolen, Miriam; Vallée, Jan; Vortisch, Peter (2021): Deutsches Mobilitätspanel (MOP) – Wissenschaftliche Begleitung und Auswertungen Bericht 2020/2021: Alltagsmobilität und Fahrleistung. Hg. v. Karlsruher Institut für Technologie (KIT). Karlsruhe. Online verfügbar unter https://mobilitaetspanel.ifv.kit.edu/downloads/Bericht_MOP_20_21.pdf.
-
 <a id="EU_2023/1805"></a>
 European Parliament and Council of the European Union. (2023). Regulation (EU) 2023/1805 of the European Parliament and of the Council of 13 September 2023 on the use of renewable and low-carbon fuels in maritime transport, and amending Directive 2009/16/EC. Official Journal of the European Union, L 234, 48-100
 
@@ -461,6 +462,9 @@ ICAO (2016): ICAO Long-Term Traffic Forecasts, Passenger and Cargo. Internationa
 
 <a id="Jong_2010"></a>
 Jong, Gerard de; Schroten, Arno; van Essen, Huib; Otten, Matthijs; Bucci, Pietro (2010): Price sensitivity of European road freight transport – towards a better understanding of existing results. significance; CE Delft, zuletzt geprüft am 04.10.2016.
+
+<a id="KIT_2023"></a>
+KIT - Karlsruhe Institute for Technology (2023): Deutsches Mobilitätspanel (MOP) 2022/2023, Eine Längs­schnitt­studie zum Mobilitäts­verhalten der Bevölkerung. Online verfügbar unter https://mobilitaetspanel.ifv.kit.edu/index.php, zuletzt geprüft am 06.06.2025.
 
 <a id="Mock_2010"></a>
 Mock, Peter (2010): Entwicklung eines Szenariomodells zur Simulation der zukünftigen Marktanteile und CO<sub>2</sub>-Emissionen von Kraftfahrzeugen (VECTOR21). Dissertation. Universität Stuttgart, zuletzt geprüft am 05.10.2016.
