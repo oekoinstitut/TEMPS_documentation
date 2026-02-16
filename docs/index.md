@@ -16,7 +16,7 @@ ___
 
 TEMPS ist ein Simulationsmodell, das bottom-up- und top-down-Ansätze miteinander kombiniert. Zunächst wird die Neuzulassungs- und Bestandsstruktur von Pkw und Lkw für rund 2400 Nutzungsprofile bottom-up berechnet, basierend auf einem TCO-Modell (Total Costs of Ownership). Bei der Antriebswahl für Pkw werden darüber hinaus nicht-ökonomische Verhaltensweisen über ein kalibriertes Logit-Modell berücksichtigt. Anschließend werden ermittelte Kennzahlen top-down anhand der Verkehrsnachfrage- und Energiebilanzdaten sowie weiteren Ist-Daten kalibriert. Die Kalibrierung und das kontinuierliche Nachführen der Ist-Daten stellt eine Kurzfristvalidierung der Modellierung sicher. Das Modell betrachtet die Verkehrsemissionen in Deutschland nach Sektordefinition des Klimaschutzgesetzes. Berücksichtigt wird die Verkehrsleistung nach dem Inlandsprinzip, der Fahrzeugbestand nach dem Inländerprinzip. Internationale Verkehre, welche von oder nach Deutschland gehen, werden ebenfalls modelliert (Personenflugverkehr, Güterflugverkehr, Güterseeverkehr).
 
-![TEMPS_Schema_18.2.25.png](TEMPS_Schema_18.2.25.png)
+![TEMPS_Schema_18.2.25.png](TEMPS_Schema_26.png)
 <figure markdown="span">
   <figcaption>Schematische Darstellung des Modells TEMPS</figcaption>
 </figure>
