@@ -83,14 +83,10 @@ Jedem Nutzungsprofil stehen – soweit auf dem Markt erhältlich – Fahrzeuge i
     </tr>
     <tr>
       <td>Erdgasantrieb</td>
-      <td></td>
+      <td>Wasserstoffverbrenner</td>
     </tr>
     <tr>
       <td>Brennstoffzellenantrieb</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Wasserstoffverbrenner</td>
       <td></td>
     </tr>
   </tbody>
